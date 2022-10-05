@@ -5,6 +5,9 @@
 }
 */
 
+img {
+  max-width: 100%;
+}
 
 body {
   display: flex;
@@ -35,7 +38,7 @@ header {
   /*flex-shrink: 0;*/
   /*debug*/
   /*height: 90px;*/
-  background-color: bisque;
+  background-color: #FFFFFF;
  /* position: fixed;*/
   /*top: 0;*/
   /*right: 0;*/
@@ -58,6 +61,72 @@ header {
   max-height: 100%;
 }*/
 
+.logo-mobile {
+  display: none;
+}
+
+.logo .logo-big, .mb-navbar a {
+  color: #5B5858;
+}
+
+.logo .logo-big, .mb-navbar a:last-child {
+  color: #FF8F00;
+}
+
 aside {
-  background-color: blueviolet;
+  background-color: #051E34;
+  color: #FFFFFF;
+  /*padding-left: 0;
+  margin-left: 0;*/
+  /*padding-left: calc(var(--bs-gutter-x) * .5);*/
+}
+
+aside ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+aside li {
+  display: flex;
+  justify-content: center;
+  padding: .2rem 0;
+}
+
+aside span, aside i {
+  color: #FFFFFF;
+}
+
+aside a {
+  text-decoration: none;
+}
+
+#badges, #alunni {
+  background-color: #1A73E8;
+  color: #FFFFFF;
+}
+
+.badge.mb-badge {
+  background-color: #155CBA;
+}
+
+
+
+
+
+/* MEDIA QUESRIES */
+
+@media screen and (max-width: 992px) {
+  .logo .logo-big, .mb-navbar a:not(:last-child) {
+    display: none;
+  }
+  
+  .logo-mobile {
+    display: inline-block;
+    width: 2rem;
+  }
+
+  aside span {
+    display: none;
+  }
+
 }

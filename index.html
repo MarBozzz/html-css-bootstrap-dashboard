@@ -28,25 +28,33 @@
 
   <header class="d-flex align-items-center">
 
-    <nav class="navbar mb-navbar navbar-expand-lg">
+    <nav class="navbar w-100 mb-navbar navbar-expand-lg">
       <div class="container-fluid mb-container">
 
         <div class="row w-100">
 
           <div class="col-2">
-            <a class="navbar-brand" href="#">
-              <img src="assets/img/logo.svg" alt="Logo">
+            <a class="navbar-brand logo" href="#">
+              <img class="logo-big" src="assets/img/logo.svg" alt="Logo grande">
+              <img class="logo-mobile" src="assets/img/mobile-logo.png" alt="logo mobile">
             </a>
           </div>
           
           <div class="col-8">
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <input class="form-control me-2" type="search" placeholder="aaa" aria-label="Search">
             </form>
+            <!-- <i class="bi bi-search"></i><span>Prova a cercare 'Quanti ragazzi di classe 75 mangiano la pizza?'</span> -->
           </div>
 
-          <div class="col-2 ">
-            <span><i class="bi bi-list-ul"></i></span>
+          <div class="col-2 text-end">
+            <a href="#">
+              <i class="bi bi-list-ul"></i>
+            </a>
+            <a href="#"><i class="bi bi-question-circle-fill"></i></a>
+            <a href="#"><i class="bi bi-three-dots-vertical"></i></a>
+            <a href="#"><i class="bi bi-bell-fill"></i></a>
+            
             <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -90,7 +98,44 @@
   
           <div class="col-1">
   
-            <aside class=" ">Aside Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae commodi laboriosam similique iusto deleniti, rerum harum corporis voluptates assumenda magni soluta, asperiores possimus reprehenderit explicabo dolor aspernatur nemo voluptatibus hic praesentium placeat ipsam obcaecati inventore velit. Nemo ipsam fugit inventore rerum quaerat architecto eligendi ut obcaecati error adipisci vitae asperiores quisquam delectus, aliquid veritatis ipsum aut, veniam exercitationem ratione magni voluptate at similique? Voluptates fuga ratione possimus ipsum quo natus autem dignissimos. Mollitia cumque facilis in voluptate aliquid nesciunt quae labore quibusdam repellendus maiores culpa, ipsa iusto sequi! Incidunt autem ea doloremque numquam! Vitae dolorem expedita ex, aliquid assumenda aut minus in laudantium placeat illum itaque voluptate, officiis veritatis. Expedita iste incidunt officia praesentium libero accusamus reiciendis temporibus facere vero voluptates maxime asperiores molestias, consequuntur ea. Delectus asperiores nemo voluptatem ab natus nobis quidem laudantium dolore inventore quam ipsa, ipsam voluptas omnis. Id, fugiat quibusdam ipsam totam voluptate voluptatum provident nemo. Ratione recusandae nostrum perferendis explicabo distinctio reprehenderit consequuntur ipsa cumque ipsam illum, quidem omnis nobis culpa repellendus temporibus magni error sed dignissimos ullam expedita quam aliquid molestias. Vero impedit, voluptatem facere corrupti excepturi reprehenderit veritatis id consequuntur reiciendis. Dolorem eligendi aliquid nam ipsum dignissimos reiciendis rem sint quam ex.</aside>
+            <aside class="d-flex flex-column justify-content-between h-100">
+
+              <div class="aside-top">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="bi bi-house-door-fill"></i>
+                      <span class="">Home</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="bi bi-bar-chart-fill"></i>
+                      <span>&ensp;Stats</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="bi bi-reception-4"></i>
+                      <span>Signals</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="aside-bottom">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="bi bi-gear-fill"></i>
+                      <span>Admin</span>
+                    </a>
+                  </li>
+                </ul>
+                
+              </div>
+
+            </aside>
   
           </div>
   
@@ -104,11 +149,28 @@
                   <div class="container-fluid">
                     <div class="row">
                       <div class="col-lg-8">
-                        <section>Boolean Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, magni reiciendis autem itaque mollitia molestias suscipit cumque voluptate, fuga ducimus impedit fugiat error expedita dolore nemo beatae quidem necessitatibus quaerat culpa! Voluptatem iusto quibusdam expedita officia iure ipsam ea hic non quam dicta. Eum praesentium commodi doloribus cupiditate neque minus nostrum tempore, voluptas ipsa, similique excepturi cum eius labore est aperiam, recusandae nisi cumque quas. Autem, quam molestiae? Illum voluptatem possimus dolorem ex quidem impedit facere blanditiis quam vitae, ducimus aut cum mollitia quasi odit voluptatibus laboriosam esse laborum voluptate fugiat voluptates, ea expedita. Eius, aspernatur consequuntur ab reiciendis repudiandae maiores similique dolores deserunt ex. Facere fugiat ut itaque unde incidunt illo, magnam praesentium repudiandae possimus laudantium autem doloribus maiores consectetur reiciendis. Sunt velit illo aspernatur optio atque asperiores pariatur rem odio nisi nulla facere laboriosam maxime inventore odit reiciendis iure dignissimos, repellat eligendi dicta laudantium necessitatibus fugit voluptate? Dolores, dolore? Officia, fugit porro exercitationem quo quas assumenda delectus? Tempora quis esse ut vitae! Sed illo perspiciatis fugiat unde facilis ducimus labore itaque error optio veniam officia iste necessitatibus fugit doloribus facere in asperiores accusantium, nam vero. Facilis, voluptatem cum iure suscipit harum perspiciatis sapiente fuga neque non et temporibus?</section>
+                        <section id="badges">
+                          <div>
+                            <h2 class="d-inline-block">Boolean</h2> 
+                            <span class="badge mb-badge rounded-pill">Primary</span>
+                          </div>
+
+                          <div>
+                            <span class="badge mb-badge rounded-pill">Primary</span>
+                            <span class="badge mb-badge rounded-pill">Primary</span>
+                            <span class="badge mb-badge rounded-pill">Primary</span>
+                            <span class="badge mb-badge rounded-pill">Primary</span>
+                          </div>
+                    
+                        </section>
                       </div>
+
                       <div class="col-lg-4">
-                        <section>Alunni Affranti</section>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quia asperiores reprehenderit dolorum vitae sint eos adipisci aperiam quos, aliquid obcaecati placeat debitis iusto? Qui ipsam nihil quisquam explicabo neque?Lorem ipcipit ex ad fugiat voluptates et quia impedit neque minima dolore nostrum, reiciendis id dicta eveniet? Dolore illo animi accusamus ullam debitis quisquam eaque, veniam possimus ea quasi, maiores ipsa itaque quia? Facilis, consequatur, praesentium delectus architecto ut dolore ipsam deleniti ratione velit fugiat aliquid voluptatem nostrum enim aut iusto sunt est. In omnis alias consequatur doloribus animi, consectetur iusto voluptatum quibusdam quisquam sunt necessitatibus nostrum magnam officiis cum. Facilis sint ad beatae! Eum quibusdam quos officia hic, voluptatem dolores laudantium necessitatibus facere sunt reiciendis, consequuntur ex, fugit possimus tempora sint quidem error qui natus doloremque voluptates 
+                        <section id="alunni">
+                          <h5>Alunni affranti negli ultimi 30 minuti</h5>
+                          <h2>12</h2>
+                        </section>
+                       
                       </div>
                     </div>
                   </div>
