@@ -76,7 +76,6 @@ aside a {
 
 /* SECTION BADGES */
 
-
 #badges, #alunni {
   min-height: 120px;
   background-color: #1A73E8;
@@ -85,6 +84,14 @@ aside a {
 
 .badge.mb-badge {
   background-color: #155CBA;
+}
+
+.badge.mb-badge.mb-plus, .double-arrow {
+  display: none;
+}
+
+.double-arrow {
+  font-size: 1.4rem;
 }
 
 
@@ -96,6 +103,21 @@ aside a {
 
 #next-classes h3, #faq h3, #todo h3 {
   padding: 1rem;
+}
+
+
+/* SECTION TABLE */
+
+
+
+
+
+.table.mb-table tr th:not(:first-child) {
+  width: 100px;
+}
+
+.table.mb-table tr th:first-child {
+  width: 100% - 400px;
 }
 
 .classe .classe-container {
@@ -147,6 +169,11 @@ aside a {
 /* MEDIA QUESRIES */
 
 @media screen and (max-width: 991px) {
+
+  #table, #faq, #todo {
+    margin-bottom: 2rem;
+  }
+
   .logo .logo-big, .mb-navbar a:not(:last-child) {
     display: none;
   }
@@ -160,4 +187,31 @@ aside a {
     display: none;
   }
 
+  #alunni {
+    padding-left: 1.5rem;
+    /*min-height: fit-content*/;
+  }
+
+  .badge.mb-badge.mb-plus, .double-arrow {
+    display: inline-block;
+  }
+
+  .badge.mb-badge.tablet-fade {
+    display: none;
+  }
+  
+
 }
+
+@media screen and (max-width:768px)  {
+  .table.mb-table tr th:nth-child(2) {
+    display: none;
+  }
+}
+
+@media screen and (max-width:576px)  {
+  .table.mb-table tr th:nth-child(3) {
+    display: none;
+  }
+}
+
