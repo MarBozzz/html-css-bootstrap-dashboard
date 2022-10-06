@@ -94,7 +94,7 @@ aside a {
   background-color: #F7F7F7;
 }
 
-#next-classes h3, #faq h3 {
+#next-classes h3, #faq h3, #todo h3 {
   padding: 1rem;
 }
 
@@ -125,6 +125,15 @@ aside a {
 }
 
 
+/* SECTION TODO */
+
+#todo span {
+  font-size: .9rem;
+}
+
+#todo .mb-form-check {
+  padding: .3rem 0 .3rem 2rem;
+}
 
 
 
