@@ -485,35 +485,62 @@
                   <div class="container-fluid">
                     <div class="row">
                       <div class="col-12">
-                        <section id="todo" class="bg-light border">
+
+                        <section id="todo" class="mb-4">
 
                           <div class="bg-light border">
                             <h3>Todo</h3>
+                            <div class="small-wrapper bg-light border m-2">
+                              <div class="form-check mb-form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  <span>Avvisare gli alunni</span>
+                                </label>
+                              </div>
+                              <div class="form-check bg-light border mb-form-check border-end-0 border-start-0">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                  <span>Lezione su Bootstrap 5</span>
+                                </label>
+                              </div>
+                              <div class="form-check mb-form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                  <span>Conquistare il mondo con Laravel</span>
+                                </label>
+                              </div>
+                            </div>
                           </div>
 
-                          <div class="form-check mb-form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                              <span>Avvisare gli alunni</span>
-                            </label>
-                          </div>
-                          <div class="form-check bg-light border mb-form-check border-end-0 border-start-0">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                            <label class="form-check-label" for="flexCheckChecked">
-                              <span>Lezione su Bootstrap 5</span>
-                            </label>
-                          </div>
-                          <div class="form-check mb-form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                            <label class="form-check-label" for="flexCheckChecked">
-                              <span>Conquistare il mondo con Laravel</span>
-                            </label>
-                          </div>
+
 
                         </section>
 
+                        <section id="active-users" class="bg-light border">
 
-                        <section>Utenti attivi</section>
+                          <div class="users-wrapper m-2">
+
+                            <div class="card mb-card" style="width: 100%;">
+                              <img src="assets/img/chart.jpg" class="card-img-top" alt="grafico">
+                              <div class="card-body">
+                                <h5 class="card-title">Utenti attivi</h5>
+                                <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Gennaio: 1200</li>
+                                <li class="list-group-item">Febbraio: 800</li>
+                                <li class="list-group-item">Marzo: 1500</li>
+                              </ul>
+                              <div class="card-body">
+                                <a href="#" class="card-link">Visualizza report approfondito</a>
+                              </div>
+                            </div>
+
+                          </div>
+
+
+                        </section>
+
                       </div>
                     </div>
                   </div>

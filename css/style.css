@@ -90,19 +90,13 @@ aside a {
 
 /* SECTION NEXT-CLASSES */
 
-#next-classes, #faq {
+#next-classes, #faq, #todo {
   background-color: #F7F7F7;
 }
 
 #next-classes h3, #faq h3, #todo h3 {
   padding: 1rem;
 }
-
-
-
-
-
-
 
 .classe .classe-container {
   width: 1.8rem;
@@ -134,6 +128,19 @@ aside a {
 #todo .mb-form-check {
   padding: .3rem 0 .3rem 2rem;
 }
+
+
+/* SECTION ACTIVE-USERS */
+
+
+.mb-card .card-body{
+  padding-top: 2rem;
+}
+
+.card .card-body p, .card li, .card a {
+  font-size: .8rem;
+}
+
 
 
 
