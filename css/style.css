@@ -101,8 +101,30 @@ aside a {
   background-color: #F7F7F7;
 }
 
+.card {
+  --bs-card-spacer-y: 0rem;
+}
+
 #next-classes h3, #faq h3, #todo h3 {
   padding: 1rem;
+}
+
+#next-classes .mb-btn {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #FFFFFF;
+  color: #1A73E8;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#next-classes .mb-btn:hover {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #1A73E8;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 
@@ -113,12 +135,12 @@ aside a {
 
 
 .table.mb-table tr th:not(:first-child) {
-  width: 100px;
+  width: 110px;
 }
-
+/*
 .table.mb-table tr th:first-child {
-  width: 100% - 400px;
-}
+  width: calc(100% - 400px); 
+}*/
 
 .classe .classe-container {
   width: 1.8rem;
@@ -155,7 +177,7 @@ aside a {
 /* SECTION ACTIVE-USERS */
 
 
-.mb-card .card-body{
+#todo .mb-card .card-body{
   padding-top: 2rem;
 }
 
@@ -207,10 +229,14 @@ aside a {
   .table.mb-table tr th:nth-child(2) {
     display: none;
   }
+
+  .table.mb-table tr th:nth-child(2), table.mb-table tr td:nth-child(2) {
+    display: none;
+  }
 }
 
 @media screen and (max-width:576px)  {
-  .table.mb-table tr th:nth-child(3) {
+  .table.mb-table tr th:nth-child(3), .table.mb-table tr td:nth-child(3){
     display: none;
   }
 }
