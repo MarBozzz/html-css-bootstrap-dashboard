@@ -96,7 +96,7 @@
   
         <div class="row">
   
-          <div class="col-1">
+          <div class="col-1 px-0">
   
             <aside class="d-flex flex-column justify-content-between h-100">
 
@@ -139,16 +139,16 @@
   
           </div>
   
-          <div class="col-11">
+          <div class="col-11 px-0">
   
             <div class="container-fluid">
-              <div class="row">
+              <div class="row mb-row">
   
-                <div class="col-12">
+                <div class="col-12 px-0">
   
                   <div class="container-fluid">
                     <div class="row">
-                      <div class="col-lg-8">
+                      <div class="col-lg-8 px-0">
                         <section id="badges">
                           <div>
                             <h2 class="d-inline-block">Boolean</h2> 
@@ -165,7 +165,7 @@
                         </section>
                       </div>
 
-                      <div class="col-lg-4">
+                      <div class="col-lg-4 px-0">
                         <section id="alunni">
                           <h5>Alunni affranti negli ultimi 30 minuti</h5>
                           <h2>12</h2>
@@ -181,9 +181,234 @@
   
                   <div class="container-fluid">
                     <div class="row">
+
                       <div class="col-12">
-                        <section>Prossime Classi</section>
+
+                        <section id="next-classes">
+
+                          <div class="hstack gap-3">
+                            <div class="bg-light border">Prossime Classi</div>
+                            <div class="bg-light border ms-auto">+</div>
+                          </div>
+
+                        </section>
+
+
+                        <section id="table">
+
+                          <table class="table table-hover bg-light border">
+                            <thead>
+                              <tr>
+                                <th scope="col">Nome</th>
+                                <th scope="col">Data Inizio</th>
+                                <th scope="col">ROI</th>
+                                <th scope="col">Stato</th>
+                                <th scope="col">Azioni</th>
+                              </tr>
+                            </thead>
+                            <tbody class="table-group-divider">
+                              <tr>
+                                <td>
+                                  <div class="classe d-flex align-items-center">
+                                    <div class="classe-container d-flex justify-content-center align-items-center">
+                                      <i class="bi bi-code-slash"></i>
+                                    </div>
+                                    <span>&ensp;Classe 75</span>
+                                  </div>
+                                </td>
+                                <td>15 Feb 2021</td>
+                                <td>20%</td>
+                                <td><span id="done" class="badge mb-badge text-bg-success">Done</span>
+                                </td>
+                                <td>
+                                  <div class="actions d-flex">
+                                    <div class="pencil d-flex justify-content-center align-items-center me-2">
+                                      <i class="bi bi-pencil-fill"></i>
+                                    </div>
+                                    <div class="trash d-flex justify-content-center align-items-center">
+                                      <i class="bi bi-trash-fill"></i>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="classe d-flex align-items-center">
+                                    <div class="classe-container d-flex justify-content-center align-items-center">
+                                      <i class="bi bi-code-slash"></i>
+                                    </div>
+                                    <span>&ensp;Classe 76</span>
+                                  </div>
+                                </td>
+                                <td>16 Feb 2021</td>
+                                <td>20%</td>
+                                <td><span id="done" class="badge mb-badge text-bg-success">Done</span>
+                                </td>
+                                <td>
+                                  <div class="actions d-flex">
+                                    <div class="pencil d-flex justify-content-center align-items-center me-2">
+                                      <i class="bi bi-pencil-fill"></i>
+                                    </div>
+                                    <div class="trash d-flex justify-content-center align-items-center">
+                                      <i class="bi bi-trash-fill"></i>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="classe d-flex align-items-center">
+                                    <div class="classe-container d-flex justify-content-center align-items-center">
+                                      <i class="bi bi-code-slash"></i>
+                                    </div>
+                                    <span>&ensp;Classe 77</span>
+                                  </div>
+                                </td>
+                                <td>17 Feb 2021</td>
+                                <td>20%</td>
+                                <td><span id="process" class="badge mb-badge text-bg-warning text-white">Process</span>
+                                </td>
+                                <td>
+                                  <div class="actions d-flex">
+                                    <div class="pencil d-flex justify-content-center align-items-center me-2">
+                                      <i class="bi bi-pencil-fill"></i>
+                                    </div>
+                                    <div class="trash d-flex justify-content-center align-items-center">
+                                      <i class="bi bi-trash-fill"></i>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="classe d-flex align-items-center">
+                                    <div class="classe-container d-flex justify-content-center align-items-center">
+                                      <i class="bi bi-code-slash"></i>
+                                    </div>
+                                    <span>&ensp;Classe 78</span>
+                                  </div>
+                                </td>
+                                <td>18 Feb 2021</td>
+                                <td>20%</td>
+                                <td><span id="done" class="badge mb-badge text-bg-success">Done</span>
+                                </td>
+                                <td>
+                                  <div class="actions d-flex">
+                                    <div class="pencil d-flex justify-content-center align-items-center me-2">
+                                      <i class="bi bi-pencil-fill"></i>
+                                    </div>
+                                    <div class="trash d-flex justify-content-center align-items-center">
+                                      <i class="bi bi-trash-fill"></i>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="classe d-flex align-items-center">
+                                    <div class="classe-container d-flex justify-content-center align-items-center">
+                                      <i class="bi bi-code-slash"></i>
+                                    </div>
+                                    <span>&ensp;Classe 79</span>
+                                  </div>
+                                </td>
+                                <td>19 Feb 2021</td>
+                                <td>20%</td>
+                                <td><span id="failed" class="badge mb-badge text-bg-danger">Failed</span></td>
+                                <td>
+                                  <div class="actions d-flex">
+                                    <div class="pencil d-flex justify-content-center align-items-center me-2">
+                                      <i class="bi bi-pencil-fill"></i>
+                                    </div>
+                                    <div class="trash d-flex justify-content-center align-items-center">
+                                      <i class="bi bi-trash-fill"></i>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="classe d-flex align-items-center">
+                                    <div class="classe-container d-flex justify-content-center align-items-center">
+                                      <i class="bi bi-code-slash"></i>
+                                    </div>
+                                    <span>&ensp;Classe 80</span>
+                                  </div>
+                                </td>
+                                <td>20 Feb 2021</td>
+                                <td>20%</td>
+                                <td><span id="done" class="badge mb-badge text-bg-success">Done</span>
+                                </td>
+                                <td>
+                                  <div class="actions d-flex">
+                                    <div class="pencil d-flex justify-content-center align-items-center me-2">
+                                      <i class="bi bi-pencil-fill"></i>
+                                    </div>
+                                    <div class="trash d-flex justify-content-center align-items-center">
+                                      <i class="bi bi-trash-fill"></i>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="classe d-flex align-items-center">
+                                    <div class="classe-container d-flex justify-content-center align-items-center">
+                                      <i class="bi bi-code-slash"></i>
+                                    </div>
+                                    <span>&ensp;Classe 81</span>
+                                  </div>
+                                </td>
+                                <td>21 Feb 2021</td>
+                                <td>20%</td>
+                                <td><span id="failed" class="badge mb-badge text-bg-danger">Failed</span>
+                                </td>
+                                <td>
+                                  <div class="actions d-flex">
+                                    <div class="pencil d-flex justify-content-center align-items-center me-2">
+                                      <i class="bi bi-pencil-fill"></i>
+                                    </div>
+                                    <div class="trash d-flex justify-content-center align-items-center">
+                                      <i class="bi bi-trash-fill"></i>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="classe d-flex align-items-center">
+                                    <div class="classe-container d-flex justify-content-center align-items-center">
+                                      <i class="bi bi-code-slash"></i>
+                                    </div>
+                                    <span>&ensp;Classe 82</span>
+                                  </div>
+                                </td>
+                                <td>22 Feb 2021</td>
+                                <td>20%</td>
+                                <td><span id="done" class="badge mb-badge text-bg-success">Done</span>
+                                </td>
+                                <td>
+                                  <div class="actions d-flex">
+                                    <div class="pencil d-flex justify-content-center align-items-center me-2">
+                                      <i class="bi bi-pencil-fill"></i>
+                                    </div>
+                                    <div class="trash d-flex justify-content-center align-items-center">
+                                      <i class="bi bi-trash-fill"></i>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                            <tfoot>
+                            </tfoot>
+                          </table>
+
+                        </section>
+
+
                         <section>FAQ</section>
+
+                        
                       </div>
                     </div>
                   </div>
