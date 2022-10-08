@@ -33,27 +33,27 @@
 
         <div class="row w-100">
 
-          <div class="col-2">
+          <div class="col-1 px-0 d-flex justify-content-end">
             <a class="navbar-brand logo" href="#">
               <img class="logo-big" src="assets/img/logo.svg" alt="Logo grande">
               <img class="logo-mobile" src="assets/img/mobile-logo.png" alt="logo mobile">
             </a>
           </div>
           
-          <div class="col-8">
+          <div class="col-10 px-0">
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="aaa" aria-label="Search">
+              <input class="form-control me-2" type="search" placeholder="Prova a cercare 'Quanti ragazzi di classe 75 mangiano la pizza?" aria-label="Search">
             </form>
             <!-- <i class="bi bi-search"></i><span>Prova a cercare 'Quanti ragazzi di classe 75 mangiano la pizza?'</span> -->
           </div>
 
-          <div class="col-2 text-end">
+          <div class="col-1 d-flex justify-content-between align-items-center px-0">
             <a href="#">
               <i class="bi bi-list-ul"></i>
             </a>
             <a href="#"><i class="bi bi-question-circle-fill"></i></a>
             <a href="#"><i class="bi bi-three-dots-vertical"></i></a>
-            <a href="#"><i class="bi bi-bell-fill"></i></a>
+            <a class="d-md-block" href="#"><i class="bi bi-bell-fill"></i></a>
 
             <!-- <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -103,11 +103,11 @@
   <div class="wrapper">
     <main>
 
-      <div class="container-fluid">
+      <div class="container-fluid h-100">
   
-        <div class="row">
+        <div class="row h-100">
   
-          <div class="col-1 px-0">
+          <div class="col-1 px-0 h-100">
   
             <aside class="d-flex flex-column justify-content-between h-100">
 
@@ -150,7 +150,7 @@
   
           </div>
   
-          <div class="col-11 px-0">
+          <div class="col-11 px-0 h-100 overflow-scroll">
   
             <div class="container-fluid">
               <div class="row mb-row">
@@ -209,11 +209,54 @@
 
                               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                 <div class="offcanvas-header">
-                                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Form</h5>
                                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
-                                  ...
+                                  
+                                  
+
+                                  <div class="input-group mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                  </div>
+                                
+                                  
+                                  <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text" id="basic-addon2">@example.com</span>
+                                  </div>
+                                  
+                                  <label for="basic-url" class="form-label">Your vanity URL</label>
+                                  <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                                  </div>
+                                  
+                                  <div class="input-group mb-3">
+                                    <span class="input-group-text">$</span>
+                                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                    <span class="input-group-text">.00</span>
+                                  </div>
+                                  
+                                  <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                                    <span class="input-group-text">@</span>
+                                    <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+                                  </div>
+                                  
+                                  <div class="input-group">
+                                    <span class="input-group-text">With textarea</span>
+                                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                                  </div>
+
+
                                 </div>
                               </div>
 

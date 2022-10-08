@@ -6,13 +6,12 @@ body {
 }
 
 .wrapper {
-  /*flex-grow: 1;*/
-  overflow-y: scroll;
+  height: calc(100vh - 70px);
 }
 
 main {
   background: #FFFFFF;
-  min-height: 100vh;
+  height: 100%;
 }
 
 img {
@@ -31,7 +30,7 @@ img {
 }
 
 header {
-  min-height: 70px;
+  height: 70px;
   background-color: #FFFFFF;
   width: 100%;
 }
@@ -48,10 +47,15 @@ header {
   color: #FF8F00;
 }
 
+.navbar-brand {
+  margin-right: 0;
+}
+
 aside {
   background-color: #051E34;
   color: #FFFFFF;
   font-family: 'Poppins', sans-serif;
+  overflow-y: auto;
 }
 
 aside ul {
@@ -105,8 +109,8 @@ aside a {
   --bs-card-spacer-y: 0rem;
 }
 
-#next-classes h3, #faq h3, #todo h3 {
-  padding: 1rem;
+#next-classes h3 {
+  padding: 1rem 0;
 }
 
 #next-classes .mb-btn {
@@ -163,6 +167,13 @@ aside a {
 }
 
 
+/* SECTION FAQ */
+
+#faq h3, #todo h3 {
+  padding: 1rem;
+}
+
+
 /* SECTION TODO */
 
 #todo span {
@@ -211,7 +222,6 @@ aside a {
 
   #alunni {
     padding-left: 1.5rem;
-    /*min-height: fit-content*/;
   }
 
   .badge.mb-badge.mb-plus, .double-arrow {
